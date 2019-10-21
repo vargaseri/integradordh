@@ -1,0 +1,65 @@
+body{
+padding: 0%;
+background-image: linear-gradient(#4500ca 4%,rgba(69,0,202,0) 50%),url(../img/background.jpg),linear-gradient(60deg,#28005f 16%,#8300e5 64%,#0f3bff 100%);
+background-repeat: no-repeat;
+background-position-x: 50%
+}
+.vvzhL  { display: block;
+  font-family:'Poppins', sans-serif, bold ;
+  font-size: 39px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.datos-form {
+    font-family: 'Poppins', sans-serif, bold ;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    padding-left: 7px;
+
+}
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  height:auto;
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrap-login100 {
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.input-form-register {
+  font-family: 'Poppins', sans-serif, bold ;
+  font-size: 16px;
+  color: #333333;
+  line-height: 1.2;
+
+  display: block;
+  width: 100%;
+  height: 55px;
+  background: transparent;
+  padding: 0 7px 0 43px;
+}
+.form-register {
+  font-family: 'Poppins', sans-serif, bold ;
+  font-size: 14px;
+  color: #333333;
+  line-height: 1.5;
+  padding-left: 7px;
+  width: 100%;
+}
