@@ -13,7 +13,7 @@ div.collapse.navbar-collapse {
 }
 @m.navbar-brandedia only screen and (max-width: 768px) {
 .navbar {
- !important   background-color: transparent;
+ !important background-color: transparent;
     }
 }
 html,
@@ -37,4 +37,7 @@ div.container-fluid{
 }
 a.navbar-brand{
     color: black!important;
+}
+.bg-light{
+    background-color: transparent!important;
 }
