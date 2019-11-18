@@ -15,7 +15,7 @@
 <body>
   <div class="container-login100">
     <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-      <form class="XFYOY" method="post">
+      <form action=""class="XFYOY" method="post">
         <h2 class="vvzhL ">REGISTRATE PARA JUGAR</h2>
 
         <div class="K-1uj hKTMS">
@@ -25,24 +25,24 @@
           <div class="s311c">
           </div>
         </div>
-        <div class="WZdjL">
-        <div class="datos-form">
+
+    <div class="WZdjL">
+      <div class="datos-form">
         <label class="label-form ">
-          <span class="form-register">Número de celular o correo electrónico</span>
-          <input class="input-form-register" aria-label="Número de celular o correo electrónico" aria-required="true" autocapitalize="off" autocomplete="tel" autocorrect="off" name="emailOrPhone" type="text" value="">
+          <span class="form-register">Nombre</span>
+          <input class="firstName"  name="firstName" type="text" >
+          <span Style="color: red; font-size:10px;"class="ErrorNombre" > </span>
         </label>
         <div class="i24fI">
-          <span class="coreSpriteInputError gBp1f">
-          </span>
         </div>
       </div>
     </div>
     <div class="WZdjL">
       <div class="datos-form">
         <label class="label-form ">
-          <span class="form-register">Nombre completo</span>
-          <input class="input-form-register" aria-label="Nombre completo" aria-required="false" autocapitalize="sentences" autocorrect="off" name="fullName" type="text" value="">
-          <span class="focus-input100" data-symbol="☺"></span>
+          <span class="form-register">Apellido</span>
+          <input class="lastName"  name="lastName" type="text" >
+          <span Style="color: red; font-size:10px;"class="ErrorApellido" data-symbol=""></span>
         </label>
         <div class="i24fI">
         </div>
@@ -52,8 +52,31 @@
       <div class="datos-form">
         <label class="label-form ">
           <span class="form-register">Nombre de usuario</span>
-          <input class="input-form-register" aria-label="Nombre de usuario" aria-required="true" autocapitalize="off" autocorrect="off" maxlength="30" name="username" type="text" value="">
-          <span class="focus-input100" data-symbol="☺"></span>
+          <input class="nombreDeUsuario" name="username" type="text" >
+          <span Style="color: red; font-size:10px;"class="ErrornombredeUsuario" data-symbol=""></span>
+        </label>
+        <div class="i24fI">
+        </div>
+      </div>
+    </div>
+    <div class="WZdjL">
+    <div class="datos-form">
+    <label class="label-form ">
+      <span class="form-register">Correo electrónico</span>
+      <input class="email" aria-label="correo electrónico"    type="text" >
+    </label>
+    <div class="i24fI">
+      <span Style="color: red; font-size:10px;" class="errorEmail">
+      </span>
+    </div>
+  </div>
+</div>
+    <div class="WZdjL">
+      <div class="datos-form">
+        <label class="label-form ">
+          <span class="form-register">Contraseña</span>
+          <input class="password"  name="password" type="password">
+          <span Style="color: red; font-size:10px;"class="ErrorContrasenia" data-symbol=""></span>
         </label>
         <div class="i24fI">
         </div>
@@ -62,19 +85,17 @@
     <div class="WZdjL">
       <div class="datos-form">
         <label class="label-form ">
-          <span class="form-register">Contraseña</span>
-          <input class="input-form-register" aria-label="Contraseña" aria-required="true" autocapitalize="off" autocomplete="new-password" autocorrect="off" name="password" type="password" value="">
-          <span class="focus-input100" data-symbol="☺"></span>
+          <span class="form-register">Confirmar Contraseña</span>
+          <input class="confirm_password"  name="password" type="password">
+          <span Style="color: red; font-size:10px;"class="ErrorContraseña" data-symbol=""></span>
         </label>
         <div class="i24fI">
         </div>
       </div>
     </div>
-      <div class="                  Igw0E     IwRSH      eGOV_         _4EzTm    bkEs3                          CovQj                  jKUp7          DhRcB                                                    ">
-        <button class="sqdOP  L3NKy   y3zKF     " type="submit">Registrarte</button>
-      </div>
-<p class="g4Vm4">Al registrarte, aceptas nuestras <a target="_blank" href="https://help.instagram.com/581066165581870">Condiciones</a>, la <a target="_blank" href="https://help.instagram.com/519522125107875">Política de datos</a> y la <a target="_blank" href="/legal/cookies/">Política de cookies</a>.</p>
+      <button type="button" class="registrarme" name="button"> Registrarme!</button>
     </div>
+
     </form>
 
 
@@ -83,7 +104,6 @@
 
 
     </div>
-</div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
