@@ -1,13 +1,15 @@
 
 window.addEventListener('load', function(){
 
-var botonDeLogin = document.querySelector("#jugar");
+var botonDeLogin = document.querySelector(".login100-form-btn");
+
+
 botonDeLogin.addEventListener('click',function(){
 
-      var nombreDeUsuario = document.querySelector("input.input100");
+      var nombreDeUsuario = document.querySelector("input.input100 nombreDeUsuario");
       var contrasenia = document.querySelector("input.input100 password");
 
-      var errorNombreDeUsuario = document.querySelector ("span.focus-input100 ErrornombredeUsuario");
+      var errorNombreDeUsuario = document.querySelector ("span.errornombredeUsuario");
       var errorContrasenia = document.querySelector ("span.focus-input100 ErrorContrasenia");
 
 
@@ -20,7 +22,7 @@ botonDeLogin.addEventListener('click',function(){
    }else {
      errorNombreDeUsuario.innerHTML= "";
    }
-// hasta que podamos validar con los datos en la base esta es la validacion
+
    if (contrasenia.value == ""){
     errorContrasenia.innerHTML= "La contraseña es obligatoria";
   }else if (contrasenia.value.length < 5) {
@@ -29,7 +31,7 @@ botonDeLogin.addEventListener('click',function(){
    errorContrasenia.innerHTML= "La contraseña debe tener entre 5 y 15 caracteres";
  }else {
     errorContrasenia.innerHTML= "";
-   }
+  }
 
 });
 
