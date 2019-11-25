@@ -2,30 +2,36 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/register.css"><link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.8.10.min.css">
+  <link rel="stylesheet" href="../css/register.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
     <script src="../js/register.js"></script>
     <title>Registrate</title>
 </head>
 
-<body>
-  <div class="container-login100">
-    <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-      <form action=""class="XFYOY" method="post">
-        <h2 class="vvzhL ">REGISTRATE PARA JUGAR</h2>
-
-        <div class="K-1uj hKTMS">
-          <div class="s311c">
-          </div>
-
-          <div class="s311c">
-          </div>
-        </div>
-
+<body cz-shortcut-listen="true">
+<div class="container-fluid">
+  <header>
+    <div class="main">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-primary">
+            <a class="navbar-brand" href="../html/home.html"><img src="../img/logo.jpeg" alt="logo" width="60px" height="60px"><a href="./home.html">Batalla Animusical</a></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            </button>
+        </nav>
+    </div>
+  </header>
+  <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+      <form class="login100-form validate-form">
+      <form class="XFYOY" method="post">
+          <h2 class="vvzhL ">REGISTRATE PARA JUGAR</h2>
     <div class="WZdjL">
       <div class="datos-form">
         <label class="label-form ">
@@ -33,8 +39,6 @@
           <input class="firstName"  name="firstName" type="text" >
           <span Style="color: red; font-size:10px;"class="ErrorNombre" > </span>
         </label>
-        <div class="i24fI">
-        </div>
       </div>
     </div>
     <div class="WZdjL">
@@ -44,8 +48,6 @@
           <input class="lastName"  name="lastName" type="text" >
           <span Style="color: red; font-size:10px;"class="ErrorApellido" data-symbol=""></span>
         </label>
-        <div class="i24fI">
-        </div>
       </div>
     </div>
     <div class="WZdjL">
@@ -55,8 +57,6 @@
           <input class="nombreDeUsuario" name="username" type="text" >
           <span Style="color: red; font-size:10px;"class="ErrornombredeUsuario" data-symbol=""></span>
         </label>
-        <div class="i24fI">
-        </div>
       </div>
     </div>
     <div class="WZdjL">
@@ -78,8 +78,6 @@
           <input class="password"  name="password" type="password">
           <span Style="color: red; font-size:10px;"class="ErrorContrasenia" data-symbol=""></span>
         </label>
-        <div class="i24fI">
-        </div>
       </div>
     </div>
     <div class="WZdjL">
@@ -89,30 +87,62 @@
           <input class="confirm_password"  name="password" type="password">
           <span Style="color: red; font-size:10px;"class="ErrorContraseña" data-symbol=""></span>
         </label>
-        <div class="i24fI">
-        </div>
       </div>
     </div>
+    <div class="container-login100-form-btn">
+      <div class="wrap-login100-form-btn">
+          <div class="login100-form-bgbtn"></div>
+
       <button type="button" class="registrarme" name="button"> Registrarme!</button>
-    </div>
-
-    </form>
-
-
-
-
-
-
-    </div>
+      </div>
+  </div>
+</form>
+</form>
+</div>
+<footer class="page-footer font-small special-color-dark pt-4">
+<div class="container">
+<ul class="list-unstyled list-inline text-center">
+  <li class="list-inline-item">
+      <a class="btn-floating btn-fb mx-1 waves-effect waves-light">
+          <i class="fab fa-facebook-f"></i>
+      </a>
+  </li>
+  <li class="list-inline-item">
+      <a class="btn-floating btn-tw mx-1 waves-effect waves-light">
+          <i class="fab fa-twitter"></i>
+      </a>
+  </li>
+  <li class="list-inline-item">
+      <a class="btn-floating btn-dribbble mx-1 waves-effect waves-light">
+          <i class="fab fa-dribbble"></i>
+      </a>
+  </li>
+</ul>
+</div>
+<div class="footer-copyright text-center py-3">© 2019 Copyright:
+<a href="#">Digital House Web Full Stack BAPRO</a>
+</div>
+</footer>
+</div>
 </body>
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+<script type="text/javascript"
+src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/compiled-4.8.10.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
 
 </html>

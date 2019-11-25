@@ -1,9 +1,9 @@
 window.addEventListener('load', function(){
-//detectar cuando toco el boton de registro
+
 var botonDeRegistro = document.querySelector("button.registrarme");
 botonDeRegistro.addEventListener('click',function(){
 
-  //tomar los datos del formulario
+
 
       var nombre = document.querySelector("input.firstName");
       var apellido = document.querySelector("input.lastName");
@@ -19,8 +19,6 @@ botonDeRegistro.addEventListener('click',function(){
       var errorContrasenia = document.querySelector ("span.ErrorContrasenia");
 
 
-
-  // por cada dato voy a validar
 
       if (nombre.value == ""){
        errorFirstName.innerHTML= "El nombre es obligatorio";
@@ -66,17 +64,6 @@ botonDeRegistro.addEventListener('click',function(){
     errorContrasenia.innerHTML= "";
    }
 
-
-
-
-
-
-  //le aviso al usuario de a un error
-
-
-
-
-  // si todo esta bien le doy la bienvenida
 
 });
 

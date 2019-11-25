@@ -1,0 +1,23 @@
+//Listado de preguntas
+
+SELECT pregunta, respuesta , generos.nombre AS Estilo
+from pregunta_respuesta
+inner join preguntas on preguntas.id = pregunta_id
+inner join respuestas on respuestas.id = respuesta_id
+inner join generos on generos.id = genero_id
+where correcta = true;
+
+// TOP 10 de ganadores
+
+select usuarios.nombre AS Nombre, usuarios.apellido AS Apellido, partida_usuario.puntos AS Puntos_ganados
+from partida_usuario, usuarios
+where usuarios.id = usuario_id
+order by puntos DESC
+LIMIT 10;
+
+// Datos de Usuarios registrados
+
+select * 
+from usuarios
+order by apellido;
+
