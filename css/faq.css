@@ -1,119 +1,56 @@
 body{
-padding: 0%;
-background-image: linear-gradient(#4500ca 4%,rgba(69,0,202,0) 50%),url(../img/background.jpg),linear-gradient(60deg,#28005f 16%,#8300e5 64%,#0f3bff 100%);
-background-repeat: no-repeat;
-background-position-x: 70%;
-}
-// Just for kicks and layout
-body {
-  margin-top: 30px;
-  background-color: #eee;
-}
-
-
-// FAQ
-.faq-nav {
-    flex-direction: column;
-    margin: 0 0 32px;
-    border-radius: 2px;    
-    border: 1px solid #ddd;
-    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
-    
-    .nav-link {
-        position: relative;
-        display: block;
-        margin: 0;
-        padding: 13px 16px;
-        background-color: #fff;
-        border: 0;
-        border-bottom: 1px solid #ddd;
-        border-radius: 0;
-        color: #616161;
-        transition: background-color .2s ease;
-        
-        &:hover {
-            background-color: #f6f6f6;
-        }
-        
-        &.active {
-            background-color: #f6f6f6;
-            font-weight: 700;
-            color: rgba(0,0,0,.87);        
-        }
-        
-        &:last-of-type {
-            border-bottom-left-radius: 2px;
-            border-bottom-right-radius: 2px;
-            border-bottom: 0;
-        }
-        
-        i.mdi {
-            margin-right: 5px;
-            font-size: 18px;
-            position: relative;
+    padding: 0%;
+    background-image: linear-gradient(#4500ca 4%,rgba(69,0,202,0) 50%),url(../img/background.jpg),linear-gradient(60deg,#28005f 16%,#8300e5 64%,#0f3bff 100%);
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    }
+    body {
+      background-color: #eee;
+      color: black;
+    }
+    .view {
+        margin-top: -56px;
+    }
+    div.collapse.navbar-collapse {
+        background-color: transparent;
+        padding-left: 100px;
+    }
+    @media only screen and (max-width: 768px) {
+    .navbar .navbar-brand{
+     !important background-color: transparent;
         }
     }
-}
-
-// TAB CONTENT
-.tab-content {
-    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
-    
-    .card {
-        border-radius: 0;
+    html,
+    body,
+    header,
+    .view {
+        height: 100%;
     }
-    
-    .card-header {
-        padding: 15px 16px;
-        border-radius: 0;
-        background-color: #f6f6f6;
-        
-        h5 {
-            margin: 0;
-            
-            button {
-                display: block;
-                width: 100%;
-                padding: 0;
-                border: 0;
-                font-weight: 700;
-                color: rgba(0,0,0,.87);
-                text-align: left;
-                white-space: normal;
-                
-                &:hover,
-                &:focus,
-                &:active,
-                &:hover:active {
-                    text-decoration: none;
-                }
-            }
-        }
+    .navbar.fixed-top.navbar-expand-lg.navbar-dark.scrolling-navbar.bg-primary{
+        background-color: transparent!important;
+        font-family: 'Paytone One', sans-serif;
     }
-    
-    .card-body {
-        p {
-            color: #616161;
-            
-            &:last-of-type {
-                margin: 0;
-            }
-        }
+    .navbar .navbar-brand img{
+        height: 60px!important;
     }
-}
-
-
-// BORDER FIX
-.accordion {
-    > .card {
-        &:not(:first-child) {
-            border-top: 0;
-        }   
+    .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+        padding: 25px;
     }
-}
-
-.collapse.show {
-    .card-body {
-        border-bottom: 1px solid rgba(0,0,0,.125);
+    div.container-fluid{
+        background-color: transparent!important;
     }
-}
+    a.navbar-brand{
+        color: black!important;
+    }
+    .display-4{
+        font-size: 2.5rem!important;
+    }   
+    .panel-group{
+        background: transparent!important;
+    }
+    .panel-group .panel-heading, .panel-collapse,.list-group, .panel-group .panel-heading, .panel-collapse, .panel-body{
+        background-color: transparent!important ;
+    }
+    div.panel-heading{
+        background: transparent!important;
+    }
