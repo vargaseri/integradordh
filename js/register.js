@@ -29,7 +29,7 @@ botonDeRegistro.addEventListener('click',function(){
      }
 
      if (apellido.value == ""){
-      errorLastName.innerHTML= "El nombre es obligatorio";
+      errorLastName.innerHTML= "El apellido es obligatorio";
     }else if (apellido.value.length < 3) {
       errorLastName.innerHTML= "El apellido debe tener al menos 3 caracteres";
     }else {
