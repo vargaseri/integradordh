@@ -133,6 +133,10 @@ button {
 	border: none;
 	background: transparent;
 }
+button.login100-form-btn{
+  background-color: #8300e5;
+  border-color: #8300e5;
+}
 
 button:hover {
 	cursor: pointer;

@@ -22,7 +22,6 @@ body{
     }
     html,
     body,
-    header,
     .view {
         height: 100%;
     }
@@ -31,7 +30,7 @@ body{
         font-family: 'Paytone One', sans-serif;
     }
     .navbar .navbar-brand img{
-        height: 60px!important;
+        height: 50px!important;
     }
     .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
         padding: 25px;
@@ -41,6 +40,7 @@ body{
     }
     a.navbar-brand{
         color: black!important;
+        padding: 0%;
     }
     .display-4{
         font-size: 2.5rem!important;
@@ -53,4 +53,10 @@ body{
     }
     div.panel-heading{
         background: transparent!important;
+    }
+    p{
+        font-size: 15px!important;
+    }
+    .fa-angle-down:before{
+        content: none!important;
     }

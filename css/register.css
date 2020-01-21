@@ -171,6 +171,10 @@ body{
     -o-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
     -ms-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
   }
+  button.registrarme{
+    background-color: #8300e5;
+    border-color: #8300e5;
+  }
 
   button.login100-form-bgbtn {
     position: absolute;
