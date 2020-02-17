@@ -34,8 +34,9 @@ botonDeRegistro.addEventListener('click',function(){
       errorLastName.innerHTML= "El apellido debe tener al menos 3 caracteres";
     }else {
       errorLastName.innerHTML= "";
-    }
-    if (nombreDeUsuario.value == ""){
+    } if (/^[a-zA-Z0-9]+$/.test(nombreDeUsuario.value)){
+      errorNombreDeUsuario.innerHTML= "";
+  }else if (nombreDeUsuario.value == ""){
      errorNombreDeUsuario.innerHTML= "El nombre de Usuario es obligatorio";
    }else if (nombreDeUsuario.value.length < 5) {
      errorNombreDeUsuario.innerHTML= "El nombre de Usuario debe tener entre 5 y 15 caracteres";
