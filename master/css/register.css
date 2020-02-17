@@ -1,0 +1,225 @@
+* {
+	margin: 0px;
+	padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  padding: 0%;
+  background-image: linear-gradient(#4500ca 4%,rgba(69,0,202,0) 50%),url(../img/background.jpg),linear-gradient(60deg,#28005f 16%,#8300e5 64%,#0f3bff 100%);
+  background-repeat: no-repeat;
+  background-position-x: 50%
+  }
+  .view {
+    margin-top: -56px;
+  }
+  div.collapse.navbar-collapse {
+    background-color: transparent;
+    padding-left: 100px;
+  }
+  @media only screen and (max-width: 768px) {
+  .navbar .navbar-brand {
+  !important background-color: transparent;
+    }
+  }
+  html,
+  body,
+  header,
+  .view {
+    height: 100%;
+  }
+  .navbar.fixed-top.navbar-expand-lg.navbar-dark.scrolling-navbar.bg-primary{
+    background-color: transparent!important;
+    font-family: 'Paytone One', sans-serif;
+    font-size: medium!important;
+  }
+  .navbar .navbar-brand img{
+    height: 60px!important;
+  }
+  .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link{
+    padding: 25px;
+  }
+  div.container-fluid{
+    background-color: transparent!important;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	margin-bottom: 30px;
+  }
+  a.navbar-brand{
+    color: black!important;
+  }
+  .display-4{
+    font-size: 2.5rem!important;
+  }
+  .vvzhL  {
+    display: block;
+    font-family:'Poppins', sans-serif, bold ;
+    font-size: 39px;
+    color: #333333;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .datos-form {
+      font-family: 'Poppins', sans-serif, bold ;
+      font-size: 14px;
+      color: #333333;
+      line-height: 1.5;
+      padding-left: 7px;
+
+  }
+  .container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    height:auto;
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .wrap-login100 {
+    width: 500px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: inherit;
+    margin: auto;
+    margin-top: 130px!important;
+    margin-bottom: 50px;
+    padding-right: 55px;
+    padding-left: 55px;
+    padding-bottom: 54px;
+    padding-top: 65px;
+  }
+  .input-form-register {
+    font-family: 'Poppins', sans-serif, bold ;
+    font-size: 16px;
+    color: #333333;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    padding: 0 7px 0 43px;
+  }
+  .form-register {
+    font-family: 'Poppins', sans-serif, bold ;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    padding-left: 7px;
+    width: 100%;
+  }
+  .label-form{
+    font-family: poppins, sans-serif, bold;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+    padding-left: 7px;
+  }
+  input{
+    font-family: poppins, sans-serif, bold;
+    font-size: 16px;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 55px;
+    background: transparent;
+    padding: 0 7px 0 7px;
+    position: relative;
+    border-bottom: 2px solid #d9d9d9!important;
+    border-color: transparent;
+  }
+  .login100-form {
+    font-family: 'Poppins', sans-serif, bold;
+    width: 100%;
+    padding: 20px;
+  }
+  .container-login100-form-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .wrap-login100-form-btn {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 0 auto;
+
+    box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+    -moz-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+    -webkit-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+    -o-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+    -ms-box-shadow: 0 5px 30px 0px rgba(3, 216, 222, 0.2);
+  }
+  button.registrarme{
+    background-color: #8300e5;
+    border-color: #8300e5;
+  }
+  select.mdb-select{
+    display: block!important;
+    left: 16px;
+    width: 300px;
+    color: #333333;
+  }
+
+  button.login100-form-bgbtn {
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    background: #a64bf4;
+    background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: -o-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: -moz-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    background: linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+    top: 0;
+    left: -100%;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .registrarme {
+    font-family: poppins, sans-serif, bold;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+  }
+
+  .wrap-login100-form-btn:hover .login100-form-bgbtn {
+    left: 0;
+  }
