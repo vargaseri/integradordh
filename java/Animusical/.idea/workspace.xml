@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="75b67248-1f21-49ec-937c-62b37821c73a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="190" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XwlnqZ2oAFhxvoEUvdcr11S70Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="AnimusicalApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.batallaAnimusical.Animusical.AnimusicalApplication" />
+      <module name="Animusical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.batallaAnimusical.Animusical.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AnimusicalApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75b67248-1f21-49ec-937c-62b37821c73a" name="Default Changelist" comment="" />
+      <created>1581965216535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581965216535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser" timestamp="1582467618362">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="86" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1582467618362" />
+    <state x="463" y="125" key="FileChooserDialogImpl" timestamp="1582140116422">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1582140116422" />
+    <state width="1323" height="279" key="GridCell.Tab.0.bottom" timestamp="1582730054199">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="279" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582730054199" />
+    <state width="1323" height="279" key="GridCell.Tab.0.center" timestamp="1582730054198">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="279" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1582730054198" />
+    <state width="1323" height="279" key="GridCell.Tab.0.left" timestamp="1582730054198">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="279" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1582730054198" />
+    <state width="1323" height="279" key="GridCell.Tab.0.right" timestamp="1582730054198">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="279" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1582730054198" />
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom" timestamp="1582564743327">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1582564743327" />
+    <state width="1323" height="227" key="GridCell.Tab.1.center" timestamp="1582564743327">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1582564743327" />
+    <state width="1323" height="227" key="GridCell.Tab.1.left" timestamp="1582564743327">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1582564743327" />
+    <state width="1323" height="227" key="GridCell.Tab.1.right" timestamp="1582564743327">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="227" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1582564743327" />
+    <state x="213" y="25" key="Maven.ArtifactSearchDialog" timestamp="1582472757572">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="213" y="25" key="Maven.ArtifactSearchDialog/0.0.1366.738@0.0.1366.738" timestamp="1582472757572" />
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1582728191523">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="379" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1582728191523" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1582580321400">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1582580321400" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Animusical$AnimusicalApplication.ic" NAME="AnimusicalApplication Coverage Results" MODIFIED="1582564820531" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.batallaAnimusical.Animusical.*</FILTER>
+    </SUITE>
+  </component>
+</project>
