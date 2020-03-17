@@ -1,38 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:fragment="header">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <link rel="stylesheet" href="/css/register.css">
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/register.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
-  <style type="text/css">
-    @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}
-    @keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}
-    .chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
-    </style>
-    <script src="/js/register.js"></script>
+    <script src="../js/register.js"></script>
     <title>Registrate</title>
 </head>
-
-<body cz-shortcut-listen="true">
-<div class="container-fluid">
+<tbody cz-shortcut-listen="true">
+<div class="container-fluid" style="margin-bottom:0px!important">
   <header>
-    <div class="main">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-primary">
+      <a class="navbar-brand" href="/home"><img src="../img/logo.jpeg" alt="logo" width="60px" height="60px"><a href="#">Batalla Animusical</a></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                  <a class="nav-link" href="/home">Inicio<span class="sr-only"></span></a>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="/">¿Como jugar?</a>
+              </li> -->
+              <li class="nav-item">
+                  <a class="nav-link" href="faq">Preguntas Frecuentes</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">¡Comenzar!
+                  </a>
+                  <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="/login">Ingresá</a>
+                      <a class="dropdown-item" href="/registro/add">Registrate</a>
+                      <a class="dropdown-item" href="#">Seguinos</a>
+                  </div>
+              </li> -->
+          </ul>
+      </div>
+  </nav>
+  <!--  <div class="main">
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-primary">
-            <a class="navbar-brand" href="../html/home.html"><img src="../img/logo.jpeg" alt="logo" width="60px" height="60px"><a href="./home.html">Batalla Animusical</a></a>
+            <a class="navbar-brand" href="/home"><img src="../img/logo.jpeg" alt="logo" width="60px" height="60px"><a href="/home">Batalla Animusical</a></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             </button>
         </nav>
     </div>
+  -->
   </header>
   <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
-      <form id="regitro" class="login100-form validate-form" method="post" action="">
+      <form id="register" action="" class="login100-form validate-form" method="POST">
           <h2 class="vvzhL ">REGISTRATE PARA JUGAR</h2>
 
     <div class="WZdjL">
@@ -48,7 +73,7 @@
       <div class="datos-form">
         <label class="label-form ">
           <span class="form-register">Apellido</span>
-          <input class="lastName" minlength="3" maxlength="15"  name="apellido" type="text" >
+          <input class="lastName" minlength="3" maxlength="15"  name="apellido" type="text" placeholder="Ingresa tu apellido">
           <span Style="color: red; font-size:10px;"class="ErrorApellido" data-symbol=""></span>
         </label>
       </div>
@@ -57,13 +82,13 @@
       <div class="datos-form">
         <label class="label-form ">
           <span class="form-register">Nombre de usuario</span>
-          <input class="nombreDeUsuario" minlength="3" maxlength="15"  name="username" type="text" >
+          <input class="nombreDeUsuario" minlength="3" maxlength="15"  name="username" type="text" placeholder="Ingresa un username">
           <span Style="color: red; font-size:10px;"class="ErrornombredeUsuario" data-symbol=""></span>
         </label>
       </div>
     </div>
 <div class="WZdjL">
-  <select class="mdb-select md-form" name="pais"  searchable="Search here..">
+  <select class="mdb-select md-form" name="pais"  searchable="">
     <option value="" disabled selected>País</option>
     <option value="1">USA</option>
     <option value="2">Germany</option>
@@ -76,7 +101,7 @@
   <div class="datos-form">
     <label class="label-form ">
       <span class="form-register">Correo electrónico</span>
-      <input class="email"  aria-label="correo electrónico" name="email"   type="email" >
+      <input class="email"  aria-label="correo electrónico" name="email" type="email" placeholder="Ingresa email">
     </label>
     <div class="i24fI">
       <span Style="color: red; font-size:10px;" class="errorEmail">
@@ -88,7 +113,7 @@
       <div class="datos-form">
         <label class="label-form ">
           <span class="form-register">Contraseña</span>
-          <input class="password" minlength="3" maxlength="15"  name="password" type="password">
+          <input class="password" minlength="3" maxlength="15"  name="password" type="password" placeholder="Ingresa un password">
           <span Style="color: red; font-size:10px;"class="ErrorContrasenia" data-symbol=""></span>
         </label>
       </div>
@@ -97,21 +122,20 @@
       <div class="datos-form">
         <label class="label-form ">
           <span class="form-register">Confirmar Contraseña</span>
-          <input class="confirm_password" minlength="3" maxlength="15"  type="password">
-          <span Style="color: red; font-size:10px;"class="ErrorContraseña" data-symbol=""></span>
+          <input class="confirm_password" minlength="3" maxlength="15"  type="password" placeholder="Confirma tu password">
+          <span Style="color: red; font-size:10px;"class="ErrorContrasenia" data-symbol=""></span>
         </label>
       </div>
     </div>
     <div class="container-login100-form-btn">
       <div class="wrap-login100-form-btn">
           <div class="login100-form-bgbtn"></div>
-
       <button type="submit" class="registrarme" name="button"> Registrarme!</button>
       </div>
   </div>
 </form>
 </div>
-<footer class="page-footer font-small special-color-dark pt-4">
+<footer th:fragment="footer" class="page-footer font-small special-color-dark pt-4">
 <div class="container">
 <ul class="list-unstyled list-inline text-center">
   <li class="list-inline-item">
@@ -136,7 +160,15 @@
 </div>
 </footer>
 </div>
-</body>
-
-
+</tbody>
+<!--Actualizado 19-02-20-->
+<!-- JQuery -->
+<script type="text/javascript" th:src="@{https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js}"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" th:src="@{https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js}"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" th:src="@{https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js}"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" th:src="@{https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js}"></script>
 </html>
+

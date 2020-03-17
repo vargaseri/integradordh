@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/css/compiled-4.8.10.min.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/home.css">
-    <script href="js/home.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../js/home.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
 
     <title>Batalla Animusical || Home </title>
@@ -32,14 +32,14 @@
                     <a class="nav-link" href="#reglas">¿Como jugar?</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/pregfrecuentes">Preguntas Frecuentes</a>
+                    <a class="nav-link" href="/faq/pregfrecuentes">Preguntas Frecuentes</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">¡Comenzar!
                     </a>
                     <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="/login/inicio">Ingresá</a>
+                        <a class="dropdown-item" href="/login">Ingresá</a>
                         <a class="dropdown-item" href="/registro/add">Registrate</a>
                         <a class="dropdown-item" href="#">Seguinos</a>
                     </div>
@@ -56,7 +56,7 @@
                     <br>
                     <p>Podes retar a tus amigos en esta pelea, o simplemente jugar en modo aventura y asi descubrir a tus habilidades para la
                     lucha.</p>
-                    <a class="btn btn-outline-secondary" href="/login/inicio">¡Elegi tu personaje favorito y comenzá a jugar!</a>
+                    <a class="btn btn-outline-secondary" href="/login">¡Elegi tu personaje favorito y comenzá a jugar!</a>
                 </div>
                 <div class="product-device box-shadow d-none d-md-block"></div>
                 <div class="product-device product-device-2 box-shadow d-none d-md-block"></div>
@@ -161,21 +161,13 @@
     </footer>
 </div>
 </body>
-<script type="text/javascript"
-        src="https://mdbootstrap.com/wp-content/themes/mdbootstrap4/js/compiled-4.8.10.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-<!--Actualizado 19-02-20-->
-<!-- JQuery -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootstrap tooltips -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
-<!-- Bootstrap core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<!-- MDB core JavaScript -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js"></script>
+<script type="text/javascript" th:src="@{../js/faq.js}"></script>
+<script type="text/javascript" th:src="@{https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js}">
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js">
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js">
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/js/mdb.min.js">
+</script>
 </html>

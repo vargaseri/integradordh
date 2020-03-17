@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/register.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet">
+    <style type="text/css">
+    @-webkit-keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}
+    @keyframes chartjs-render-animation{from{opacity:0.99}to{opacity:1}}
+    .chartjs-render-monitor{-webkit-animation:chartjs-render-animation 0.001s;animation:chartjs-render-animation 0.001s;}
+    </style>
+    <script src="/js/register.js"></script>
+    <title>Registrate</title>
+</head>
+<body cz-shortcut-listen="true">
+<div class="container-fluid">
+    <header>
+        <div class="main">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar bg-primary">
+                <a class="navbar-brand" href="../html/home.html"><img src="../img/logo.jpeg" alt="logo" width="60px" height="60px"><a href="./home.html">Batalla Animusical</a></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                </button>
+            </nav>
+        </div>
+    </header>
+    <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+        <form id="regitro" class="login100-form validate-form" method="post" action="">
+            <h2 class="vvzhL ">Agregar Preguntas</h2>
+            <div class="WZdjL">
+                <div class="datos-form">
+                    <label class="label-form ">
+                        <span class="form-register">Nueva Pregunta</span>
+                        <input class="firstName" minlength="3" maxlength="250"  name="texto" type="text" placeholder="Ingresa la pregunta" >
+                        <span Style="color: red; font-size:10px;"class="ErrorPregunta" > </span>
+                    </label>
+                </div>
+            </div>
+            <div class="WZdjL">
+                <select class="mdb-select md-form" name="genero" searchable="Search here..">
+                    <option value="" disabled selected>Genero Musical</option>
+                    <option  value="1">Cumbia</option>
+                    <option  value="2">Cuarteto</option>
+                    <option  value="3">Rock</option>
+                    <option  value="4">Reggaeton</option>
+                    <option value="5">Baladas en Inglés</option>
+                </select>
+            </div>
+            <div class="container-login100-form-btn">
+                <div class="wrap-login100-form-btn">
+                    <div class="login100-form-bgbtn"></div>
+                    <button type="submit" class="agregar" name="button"> Agregar!</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer class="page-footer font-small special-color-dark pt-4">
+        <div class="container">
+            <ul class="list-unstyled list-inline text-center">
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-fb mx-1 waves-effect waves-light">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-tw mx-1 waves-effect waves-light">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item">
+                    <a class="btn-floating btn-dribbble mx-1 waves-effect waves-light">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            <a href="#">Digital House Web Full Stack BAPRO</a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

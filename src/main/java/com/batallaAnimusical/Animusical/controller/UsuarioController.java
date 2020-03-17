@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
         @GetMapping
         public Usuario getUsuarioById (){
-                usuarioJpaRepository.findBynombre("nombre");
+                usuarioJpaRepository.findByUsername("nombre");
             return null;
         }
 
